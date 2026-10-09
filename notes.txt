@@ -1,0 +1,18 @@
+1️⃣ tsconfig.json
+tsconfig.json is the central configuration file for TypeScript. It defines how the TypeScript compiler should transpile and type-check the project.
+
+❌ TypeScript cannot compile the project
+2️⃣ tsconfig.app.json
+This file contains TypeScript configuration specifically for the React application code.
+3️⃣ tsconfig.node.json
+This config is used for Node.js environment files.
+tsconfig.node.json is used for TypeScript configuration of Node.js related files like vite.config.ts. It ensures proper module resolution and Node environment support.
+4️⃣ vite.config.ts
+This is the configuration file for Vite, the build tool used in the project.
+vite.config.ts is the configuration file for the Vite build tool. It defines plugins, dev server settings, build optimization, and path aliases for the project.
+
+##What is Vite?
+
+Vite is a modern frontend build tool that provides fast development server and optimized production builds using native ES modules.
+
+===========================================
